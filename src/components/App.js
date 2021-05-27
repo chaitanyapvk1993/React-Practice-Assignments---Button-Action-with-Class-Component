@@ -21,7 +21,7 @@ but.appendChild(para)   ;
     	return(
     		<div id="main">
 				{ /* Do not remove this main div!! */ }
-				<button  id="click" onClick={() => this.onDishSelect()}>Sumbit</button>
+				<button  id="click" onClick={() => this.onDishSelect()}></button>
     		</div>
     	);
     }
